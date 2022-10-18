@@ -3,7 +3,7 @@
  *print_alphabet_x10-prints- prints alphabet a-z 10times
  *
  */
-void print-alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int a;
 	char b;
