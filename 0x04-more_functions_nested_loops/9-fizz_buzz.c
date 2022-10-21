@@ -17,7 +17,7 @@ int main(void)
 		}
 		else if (a % 3 == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if (a % 5 == 0)
 		{
@@ -27,13 +27,13 @@ int main(void)
 			}
 			else
 			{
-				printf("Buzz");
+				printf("Buzz ");
 			}
 
 			continue;
 		}
 		printf("%d ", a);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
