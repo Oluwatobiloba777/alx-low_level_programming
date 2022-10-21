@@ -10,10 +10,13 @@ void more_numbers(void)
 	char num[] = "01234567891011121314";
 
 	while (b < 10)
+	{
 		for (a = 0; a <= 19; a++)
 		{
 			_putchar(num[a]);
 		}
-	_putchar(10);
-	b++;
+
+		_putchar(10);
+		b++;
+	}
 }
