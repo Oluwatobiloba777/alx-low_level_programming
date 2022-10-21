@@ -29,8 +29,6 @@ int main(void)
 			{
 				printf("Buzz ");
 			}
-
-			continue;
 		}
 		printf("%d ", a);
 	}
