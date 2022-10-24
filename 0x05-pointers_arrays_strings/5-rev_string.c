@@ -22,7 +22,7 @@ void rev_string(char *s)
 	while (c >= 0)
 	{
 		first = s[b - c];
-		last = s[a];
+		last = s[c];
 		s[c] = first;
 		s[b - c] = last;
 		c--;
