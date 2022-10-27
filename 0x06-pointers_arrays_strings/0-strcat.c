@@ -9,9 +9,9 @@
  *Return: dest string
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int a, dest_len = 0, src_len = 0;
+	int a = 0, dest_len = 0, src_len = 0;
 
 	while (dest[src_len] != '\0')
 	{
@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 		src_len++;
 	}
 
-	for (a = 0; a < n && src[a] != '\0'; a++)
+	for (; a < n && src[a] != '\0'; a++)
 	{
 		dest[dest_len + a] = src[a];
 	}
