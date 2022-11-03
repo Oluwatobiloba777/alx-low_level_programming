@@ -23,7 +23,6 @@ int _strlen_recursion(char *s)
 /**
  *check_palindrome- check if a string is a palindrom
  *@s: string
- *@b:position
  *
  *Return: int
  */
@@ -55,5 +54,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	return (check_palindrome(s));
+	return (check_palindrome(s - 1));
 }
