@@ -23,19 +23,19 @@ int _strlen_recursion(char *s)
 /**
  *check_palindrome- check if a string is a palindrom
  *@s: string
- *@a:position
+ *@b:position
  *
  *Return: int
  */
 
-int check_palindrome(char *s, int a)
+int check_palindrome(char *s, int b)
 {
-	int a = _strlen_recursion(s) - 1;
+	int b = _strlen_recursion(s) - 1;
 
-	if (*s == s[a])
+	if (*s == s[b])
 	{
 		s++;
-		a--;
+		b--;
 	}
 	else
 	{
