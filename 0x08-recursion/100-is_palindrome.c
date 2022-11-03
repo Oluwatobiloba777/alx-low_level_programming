@@ -37,11 +37,11 @@ int check_palindrome(char *s)
 		s++;
 		b--;
 	}
-	else
+	else if
 	{
-		return (1);
+		return (0);
 	}
-	return (0);
+	return (1);
 }
 
 /**
