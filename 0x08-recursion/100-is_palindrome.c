@@ -37,7 +37,7 @@ int check_palindrome(char *s)
 		s++;
 		b--;
 	}
-	else if
+	else
 	{
 		return (0);
 	}
@@ -53,7 +53,7 @@ int check_palindrome(char *s)
 
 int is_palindrome(char *s)
 {
-	if (*s == '0')
+	if (*s == '\0')
 		return (1);
 	return (check_palindrome(s));
 }
