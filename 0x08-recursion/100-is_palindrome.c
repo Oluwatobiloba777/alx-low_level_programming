@@ -35,7 +35,7 @@ int check_palindrome(char *s, int a)
 	if (*s == s[a])
 	{
 		s++;
-		a++;
+		a--;
 	}
 	else
 	{
